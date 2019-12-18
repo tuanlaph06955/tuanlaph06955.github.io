@@ -1,4 +1,4 @@
-const API = 'http://5dcb5e3b34d54a0014314e36.mockapi.io/api/js/aaaaa';
+const API = 'https://5dcb5e3b34d54a0014314e36.mockapi.io/api/js/aaaaa';
   
 let id = localStorage.getItem('id');
   function getID() {
