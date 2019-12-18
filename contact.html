@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>JS</title>
+	<link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+	<section class="logo">
+		<section class="wrap">
+			<center><img src="img/logo.jpg"></center>
+		</section>
+	</section>
+
+	<section class="menu">
+		<ul>
+			<li><a href="index.html">Trang chủ</a></li>
+			<li><a href="">Sản phẩm</a></li>
+			<li><a href="contact.html">Liên hệ</a></li>
+			<li><a href="cart.html">Giỏ hàng</a></li>
+		</ul>
+	</section>
+	
+	<section style="height: 350px;">
+		<img id="anh" src="img/banner1.jpg" alt="">
+    </section>
+    
+    <section id="lienhe">
+            <section class="wrap">
+                <section class="title">
+                    <h4>LIÊN HỆ VỚI BEST PRICE</h4>
+                </section>
+            </section>
+        </section>
+    
+        <section id="content">
+            <section class="wrap">
+                <section class="diachi">
+                    <section class="left">
+                        <section class="dc">
+                            <h4>TRỤ SỞ CHÍNH:</h4>
+                            <p><i class="fas fa-map-marker-alt" style="color:#ccc; font-size: 20px"></i> Số 01 Ngô Gia Tự, Phường Đức Giang, Quận Long Biên, Hà Nội, Việt Nam.</p>
+                            <hr>
+                            <p><i class="fas fa-phone-volume" style="color:#ccc; font-size: 20px;"></i> Điện thoại: 0938 099 971 – Ext: 621 | Fax: +84-28-6.2563738</p>
+                        </section>
+    
+                        <section class="dc1">
+                            <h4>CHI NHÁNH PHÍA BẮC:</h4>
+                            <p><i class="fas fa-map-marker-alt" style="color:#ccc; font-size: 20px;"></i> Tầng 9, toà nhà Diamond (Handico 6), Số 2 Hoàng Đạo Thuý, Trung Hoà Nhân Chính, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quận Thanh Xuân, Hà Nội</p>
+                            <hr>
+                            <p><i class="fas fa-phone-volume" style="color:#ccc; font-size: 20px;"></i> Điện thoại: 024-73073737 – Ext: 621 | Fax : +84-6.2906480</p>
+                        </section>
+                    </section>
+                    <section class="right">
+                        <section class="dc2">
+                            <h4>CHI NHÁNH PHÍA NAM:</h4>
+                            <p><i class="fas fa-map-marker-alt" style="color:#ccc; font-size: 20px"></i> 750 Sư Vạn Hạnh, Phường 12, Quận 10, Tp. Hồ Chí Minh, Việt Nam.</p>
+                            <hr>
+                            <p><i class="fas fa-map-marker-alt" style="color:#ccc; font-size: 20px"></i> Số 79 Đường số 6, Hưng Phước 4, Phú Mỹ Hưng, Quận 7, Tp. Hồ Chí Minh, Việt Nam</p>
+                            <hr>
+                            <p><i class="fas fa-phone-volume" style="color:#ccc; font-size: 20px;"></i> Điện thoại : 028-62563737 – Ext: 621 | Fax : +84-6.2906480</p>
+                            <hr>
+                            <p><i class="far fa-envelope" style="color:#ccc; font-size: 20px;"></i> Email: bestprice@travel.vn</p>
+                    </section>
+                </section>
+            </section>
+    
+            <section class="thongtin">
+                <section class="tt1">
+                    <section class="o1">
+                        <h3><i class="fas fa-ellipsis-v" style="color:white; font-size: 20px;"></i> KỸ THUẬT</h3><br>
+                        <hr>
+                        <p>Điện thoại: <p1>1900 9477</p1> (ext2)</p>
+                        <hr>
+                        <p>Website: support.travel.vn</p>
+                        <hr>
+                        <p>Email: kythuat@travel.vn</p>
+                        <hr>
+                        <p>Giải quyết và hướng dẫn các sự cố kỹ thuật</p>
+                    </section>
+                </section>
+    
+                <section class="tt2">
+                    <section class="o1">
+                        <h3><i class="fas fa-ellipsis-v" style="color:white; font-size: 20px;"></i> DỊCH VỤ KHÁCH HÀNG</h3><br>
+                        <hr>
+                        <p>Điện thoại: <p1>1900 9477</p1> (ext2)</p>
+                        <hr>
+                        <p>Website: support.travel.vn</p>
+                        <hr>
+                        <p>Email: dvkh@travel.vn</p>
+                        <hr>
+                        <p>Các thủ tục hành chính liên quan đến dịch vụ</p>
+                    </section>
+                </section>
+            </section>
+
+            <form name="mform" id="myForm">
+                    <h1>LIÊN HỆ TRỰC TUYẾN</h1>
+                <section class="online">
+                    
+                    <section class="person">
+                        <section class="input">
+                            <i class="fas fa-user"></i>
+                            <input name="name" type="text" placeholder="Họ và tên (*)" required>
+                        </section>
+    
+                        <section class="input">
+                            <i class="fas fa-phone"></i>
+                            <input name="phone" type="number" placeholder="Số điện thoại (*)" required>
+                        </section>
+    
+                        <section class="input">
+                            <i class="far fa-envelope"></i>
+                            <input name="email" type="email" placeholder="Email (*)" required>
+                        </section>
+    
+                        <section class="input">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input name="address" type="text" placeholder="Địa chỉ">
+                        </section>
+    
+                        <section class="input">
+                            <i class="fas fa-feather-alt"></i>
+                            <input name="title" type="text" placeholder="Tiêu đề (*)" required>
+                        </section>
+                    </section>
+
+                    <section class="info">
+                        <section class="icon">
+                            <i class="fas fa-pen-fancy"></i>
+                        </section>
+                        <textarea name="content" id="" cols="73" rows="14" placeholder="Nội dung (*)" required></textarea>
+                    </section>
+                    <button type="submit" style="margin-left: 475px;">GỬI</button>
+                    <button type="reset">LÀM LẠI</button>
+                </section>
+            </form>
+            </section>
+        </section>
+        <section id="footer">
+            <!-- <section class="wrap"> -->
+                <section class="lkn">
+                    <h4>LIÊN KẾT NHANH</h4>
+                        <a href="index.html">TRANG CHỦ</a>|
+                        <a href="#">SẢN PHẨM</a>|
+                        <a href="#">LIÊN HỆ</a>|
+                        <a href="#">GIỎ HÀNG</a>|
+                        
+                        <section class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.353848071431!2d105.88948331440784!3d21.058524992138565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a99bb33bdf0d%3A0x38a0935d406d1e3e!2zMSBOZ8O0IEdpYSBU4buxLCDEkOG7qWMgR2lhbmcsIExvbmcgQmnDqm4sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1548429927955" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </section>
+                </section>
+                <section class="add10">
+                    <h4>HỆ THỐNG PHÂN PHỐI</h4>
+                        <p>1. BestPrice Phú Nhuận</br>
+                        74 Nguyễn Văn Trỗi Quận Phú Nhuận, Tp. Hồ Chí Minh</br> 
+                        Hotline kinh doanh: 0938 099 971</p> 
+    
+                        <p>2. BestPrice Long Biên</br>
+                        Số 01 Ngô Gia Tự, Long Biên, Hà Nội.</br> 
+                        Hotline kinh doanh: 0938 908 488 </p>
+    
+                        <p>BestPrice Service </br>
+                        Hotline Miền Bắc : 0938 902 400</br>
+                        Hotline Miền Nam: 0903 796 800</p>
+    
+                        <p>Trung tâm CSKH:
+                        1900 54 55 91</p>
+                        <p>care@thaco.com.vn</p>
+                </section>
+            <!-- </section> -->
+    </section>
+    <script src="./js/contact.js"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+</body>
+</html>

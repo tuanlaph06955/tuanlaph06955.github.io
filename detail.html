@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>JS</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	
+	
+</head>
+<body>
+	<section class="logo">
+		<section class="wrap">
+			<center><img src="img/logo.jpg"></center>
+		</section>
+	</section>
+
+	<section class="menu">
+		<ul>
+			<li><a href="index.html">Trang chủ</a></li>
+			<li><a href="">Sản phẩm</a></li>
+			<li><a href="contact.html">Liên hệ</a></li>
+			<li><a href="cart.html">Giỏ hàng</a></li>
+		</ul>
+	</section>
+	
+	<section style="height: 350px;">
+		<img id="anh" src="img/banner1.jpg" alt="">
+    </section>  
+    
+    <section class="wrap">
+        <section class="head">
+                <h3>ĐẶT HÀNG</h3>
+        </section>
+        <section class="nd">
+            <section class="left">
+				<!-- <img id="anh" width="350" src=""> -->
+            </section>
+            <section class="mid">
+				<a id="id"></a>
+                <h2></h2><br>
+                <p>Giá: &nbsp;&nbsp;$<p1 id="nd"></p1></p><br>
+                <p>Detail:<h4></h4></p> <br>
+                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+				<input type="number" id="number" value="1" />
+				<div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                <input type="button" value="MUA NGAY" onclick="addPro()" style="border-radius: 5px;width: 150px;height: 30px;background-color:#3399ff;color: white; ">
+            </section>
+            <section class="right">
+                <h4>Đổi trả và bảo hành</h4>
+                <ul>
+                    <li><p>30 ngày đổi trả dễ dàng</p></li>
+                    <li><p>Bảo hành 2 năm hoặc 30.000 km</p></li>
+                </ul>
+                <h4>Hỗ trợ thanh toán trả góp bằng thẻ tín dụng</h4>
+                <section class="box">
+                    <img src="img/the1.jpg">
+                    <img src="img/the2.jpg">
+                    <img src="img/the3.jpg">
+                </section>
+                <section class="box">
+                    <img src="img/the4.jpg">
+                    <img src="img/the5.jpg">
+                    <img src="img/the6.png">
+                </section>
+                <input type="button" value="THANH TOÁN TRẢ GÓP" style="background-color: #3399ff; width: 250px; height: 30px;margin-left: 50px;margin-top: 20px;color:#fff">
+            </section>
+        </section>
+    </section>
+    <div id="footer">
+		<div class="wrap">
+			<div class="lkn">
+				<h4>LIÊN KẾT NHANH</h4>
+					<a href="ASS.html">KHÁM PHÁ</a>|
+					<a href="#">CHI TIẾT</a>|
+					<a href="#">ĐẶT HÀNG</a>|
+					<a href="#">ĐẠI LÝ</a>
+					
+					<div class="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.353848071431!2d105.88948331440784!3d21.058524992138565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a99bb33bdf0d%3A0x38a0935d406d1e3e!2zMSBOZ8O0IEdpYSBU4buxLCDEkOG7qWMgR2lhbmcsIExvbmcgQmnDqm4sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1548429927955" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+			</div>
+			<div class="add">
+				<h4>HỆ THỐNG PHÂN PHỐI</h4>
+					<p>1. BMW Motorrad Phú Nhuận</br>
+					74 Nguyễn Văn Trỗi Quận Phú Nhuận, Tp. Hồ Chí Minh</br> 
+					Hotline kinh doanh: 0938 099 971</p> 
+
+					<p>2. BMW Motorrad Long Biên</br>
+					Số 01 Ngô Gia Tự, Long Biên, Hà Nội.</br> 
+					Hotline kinh doanh: 0938 908 488 </p>
+
+					<p>BMW Motorrad Service </br>
+					Hotline Miền Bắc : 0938 902 400</br>
+					Hotline Miền Nam: 0903 796 800</p>
+
+					<p>Trung tâm CSKH:
+					1900 54 55 91</p>
+					<p>care@thaco.com.vn</p>
+			</div>
+		</div>
+    </div>
+    <script src="./js/detail.js"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+
+</body>
+</html>

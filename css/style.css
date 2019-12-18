@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: tahoma;
+}
+@font-face{
+	font-family: myfont1;
+	src:url(../font/clearsans-thin.ttf);
+}
+.wrap{
+    margin:0 auto;
+	width: 100%;
+}
+.logo{
+	height: 71.5px;
+	
+}
+.logo img{
+    height: 10%;
+    width: 10%;
+}
+.menu{
+	float: left;
+	height: 80px;
+	margin-left: 450px;
+	line-height: 60px;
+	width: 1350px;
+}
+.menu ul li{
+	display: inline;
+	margin-left: 30px;
+    padding-bottom: 5px;
+}
+.menu ul li a{
+	color: rgb(40, 123, 179);
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+.menu ul li:hover{
+	border-bottom: 2px solid rgb(40, 123, 179);
+}
+.show_pro{
+	Display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 120px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 50px;
+	width: 150px;
+}
+.show_pro img{
+	width: 200px;
+}
+.each_pro{
+	margin-bottom: 15px;;
+}
+.each_pro button{
+	background: gray;
+	width: 80px;
+	height: 35px;
+	color: white;
+	margin-top: 5px;
+}
+.each_pro button:hover{
+	background: #2373ba;
+}
+.title{
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #2373ba;
+	margin-top: 100px;
+}
+.title h2{
+	color: #2373ba;
+	padding-top: 0px;
+	font-family: myfont1;
+}
+/* detail */
+.head{
+	height: 60px;
+	line-height: 60px;
+	background-color:#3399ff ;
+	padding-left: 100px;
+	font-size: 18px;
+	color:white;
+	margin-top: 100px;
+}
+#content{
+	height: 450px;
+	font-size: 20px;
+}
+.nd{
+	margin-top: 10px;
+	height: 375px;
+}
+.left{
+	float: left;
+	margin-left: 100px;
+	background-position: 50% 50%;
+	position: relative;
+	overflow: hidden;
+	cursor: zoom-in;
+}
+.left img:hover {
+	transform: scale(1.5,1.5);
+	-webkit-transform: scale(1.5,1.5);
+	-moz-transform: scale(1.5,1.5);
+	-o-transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);
+}
+.left img {
+	transition: opacity 0.5s;
+	display: block;
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+.mid{
+	float: left;
+	margin-left: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	height: 375px;
+}
+#id{
+	display: none;
+}
+.mid p1{
+	color: black;
+}
+.mid table{
+	border-spacing: 0px 25px; 
+}
+@font-face{
+	font-family: myfont;
+	src:url(../font/Chivo-Black.otf);
+}
+.mid h2{
+	font-family: myfont;
+}
+.right{
+	float: left;
+	padding-left: 30px;
+}
+.right h4{
+	padding-top: 10px;
+}
+.right li{
+	margin-top: 15px;
+	margin-left: 30px;
+}
+.box img{
+	border: 1px solid #ccc;
+	margin-left: 5px;
+}
+
+.value-button {
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 0px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:10px;
+	background: #eee;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.value-button:hover {
+	cursor: pointer;
+}
+
+form #decrease {
+	margin-right: -4px;
+	border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+	margin-left: -4px;
+	border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+	margin: 0px;
+	padding: 0px;
+}
+
+input#number {
+	text-align: center;
+	border: none;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 0px;
+	width: 40px;
+	height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+/* footer */
+#footer{
+	height: 450px;
+	background-color: #000;
+	margin-top: 15px;
+	color: white;
+}
+.lkn{
+	margin-left: 100px;
+	width: 560px;
+	float: left;
+}
+.lkn h4{
+	padding-top: 50px;
+	padding-bottom: 10px; 
+}
+.lkn a{
+	text-decoration: none;
+	padding-right: 20px;
+	color: white;
+}
+.map{
+	width: 560px;
+	margin-top: 10px;
+	height: 100px;
+}
+.map iframe{
+	width: 560px;
+	height: 300px;
+}
+.add{
+	width: 470px;
+	padding-top: 50px;
+	float: left;
+	margin-left: 200px;
+}
+.add h4{
+	padding-bottom: 15px; 
+}
+.add p{
+	padding-bottom: 30px;
+}
+/* Cart */
+table{
+	width: 1200px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#namePro{
+	width: 150px;
+}
+#pricePro{
+	width: 150px;
+}
+#imgPro{
+	width: 400px;
+}
+#qtyPro{
+	width: 100px;
+}
+#totalPro{
+	width: 100px;
+}
+button{
+	background: #3399ff;
+	color: white;
+	border-radius: 20px;
+	border: 1px solid white;
+}
+#delete{
+	width: 100px;
+	height: 30px;
+}
+#tb table{
+	width: 980px;
+	margin-left: 105px;
+	margin-top: 20px;
+}
+#tt{
+	text-align: center;
+}
