@@ -1,5 +1,5 @@
 const API_CATE = 'http://5dcb5e3b34d54a0014314e36.mockapi.io/api/js/cate';
-const API = 'http://5dcb5e3b34d54a0014314e36.mockapi.io/api/js/aaaaa';
+const API = 'https://5dcb5e3b34d54a0014314e36.mockapi.io/api/js/aaaaa';
 
 function getProducts(API) {
   axios.get(API)
